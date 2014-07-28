@@ -5,8 +5,7 @@ h1, h2, h3, h4 {font-size: 100%;font-weight: normal;}
 ul, ol, li {list-style: none;}
 button, input, img, select {vertical-align: middle;border: none;margin: 0;outline: none;-webkit-tap-highlight-color: transparent;}
 a {color:#fff;text-decoration: none;}
-a,button{-webkit-tap-highlight-color: rgba(0,0,0,0);-webkit-tap-highlight-color: transparent;}
-a:active {color: #FF7E01;-webkit-tap-highlight-color: rgba(0,0,0,0);-webkit-tap-highlight-color: transparent;}
+a:active {color: #FF7E01;}
 body {min-width: 320px;color: #fff;word-wrap: break-word;word-break: break-all;overflow: hidden;-webkit-overflow-scrolling: touch;-webkit-touch-callout: none;-webkit-text-size-adjust: none;-ms-text-size-adjust: none;-webkit-user-select: none;-ms-user-select: none;}
 html,body {width: 100%;height: 100%;}
 body, button, h1,.cn-market-main{font:normal 12px/1.5 Arial, "Lucida Grande", Verdana, "Microsoft Yahei",STXihei,Sans-serif;}
