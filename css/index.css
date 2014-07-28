@@ -1,0 +1,24 @@
+@charset "utf-8";
+
+/*html tag*/
+html {}
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td, figure { padding:0; margin:0; }
+body { font:14px/1.5 "Microsoft YaHei",Tahoma,Helvetica,simsun,sans-serif; color:#333; _position: relative;_zoom: 1;}
+abbr,article,aside,bb,datagrid,datalist,details,dialog,event-source,figure,figcaption,footer,header,mark,menu,meter,nav,output,progress,section,time { display:block; height:auto; }
+table { border-collapse:collapse; border-spacing:0; }
+ol, ul { list-style:none outside; }
+h1, h2, h3, h4, h5, h6 { font-size:100%; }
+fieldset, img { border:0 none; vertical-align:middle; }
+a { color:#333333; text-decoration:none; }
+a:hover { color:#28f;}
+em { font-style:normal; }
+textarea { overflow-y:auto; }
+input,select,textarea,button { font:14px "Microsoft YaHei",Tahoma,Helvetica,simsun,sans-serif; }
+button { overflow:visible; vertical-align:middle; }
+button,label { cursor:pointer; }
+
+.article-li{width: 100%; margin: 20px auto;}
+.article-item{position: relative;width: 80%;margin:0 auto;}
+.article-item .article-time, .article-item .article-title{height: 40px; line-height: 40px;}
+.article-item .article-time{position: absolute;top: 0;left: 0;width: 100px;text-align: right;}
+.article-item .article-title{font-size: 24px;margin-left: 120px;}
