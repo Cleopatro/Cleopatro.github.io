@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>RenderLayer Tree demo</title>
+	<style type="text/css">
+	body{color:#333;font:14px/1.5 "Microsoft Yahei", sans-serif;}
+	.show_panel{width: 200px;padding:10px;border:1px solid #ccc;margin:80px 20px;cursor: pointer;}
+	.no_will_change{-webkit-transform: translateZ(0) rotate(20deg);transform: translateZ(0) rotate(20deg);}
+	</style>
+</head>
+<body>
+<h1>This is a demo.</h1>
+<div class="no_will_change show_panel">transform 3D</div>
+<div id="will_change" class="show_panel">will-change</div>
+<script type="text/javascript">
+	window.onload=function(){
+		function addWillChange(){
+			this.style.willChange="transform";
+			console.log("enter");
+		}
+
+		function removeWillChange(){
+			this.style.willChange="auto";
+			this.style.webkitTransform="";
+			this.style.transform="";
+			console.log("leave");
+		}
+
+		function addStyle(){
+			this.style.webkitTransform="rotate(20deg)";
+			this.style.transform="rotate(20deg)";
+		}
+
+		var willChange=document.getElementById("will_change");
+
+		willChange.addEventListener("mouseenter", addWillChange);
+		willChange.addEventListener("click", addStyle);
+		willChange.addEventListener("mouseleave", removeWillChange);
+	}
+</script>
+</body>
+</html>
