@@ -46,7 +46,7 @@ section h3{font-size:15px;}
 .ico-blue-full{color:#fff;border-color:#52C9F0;background-color:#52C9F0;border-radius:2px;}
 .ico-like, .ico-filter,
 .ico-blue-full, .ico-box-triangle,
-.ico-checkbox, .ico-checkbox-bg{background-image:url(http://pic.c-ctrip.com/distribution/jhpage/ico-jh.png?141013);background-repeat:no-repeat;background-size:46px 190px;}
+.ico-checkbox, .ico-checkbox-bg{background-image:url(../img/ico-jh.png?141017);background-repeat:no-repeat;background-size:46px 190px;}
 .ico-like{display:inline-block;width:15px;height:13px;}
 .ico-like-empty{background-position:0 0;}
 .ico-like-full{background-position:-16px 0;}
@@ -102,8 +102,8 @@ section h3{font-size:15px;}
 .flt-hs span + span:before {content: '';display: inline-block;width: 1px;height: 12px;background: #dfdfdf;margin: 0 4px -2px;}
 .flt-hs .ico-flt{float:left;margin-right:5px;width: 14px;height: 12px;}
 
-.filter_bar{display:table;display: -webkit-box;display: -moz-box;display: -ms-flexbox;display: -webkit-flex;display: flex;width:100%;}
-.filter_bar li{position:relative;display:table-cell;width:33.33%;padding-top: 32px;-webkit-box-flex: 1;-moz-flex: 1;-ms-box-flex: 1;box-flex: 1;flex: 1;text-align:center;height:49px;color:rgba(255,255,255,.7);-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;}
+.filter_bar{display: -webkit-box;display: -moz-box;display: -ms-flexbox;display: -webkit-flex;display: flex;width:100%;}
+.filter_bar li{position:relative;width:33.33%;padding-top: 32px;-webkit-box-flex: 1;-moz-flex: 1;-ms-box-flex: 1;box-flex: 1;flex: 1;text-align:center;height:49px;color:rgba(255,255,255,.7);-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;}
 .filter_bar .ico-filter{position: absolute;top: 8px;left: 50%;margin-left: -9px;/*position:relative;display:block;margin: 8px auto 6px;*/}
 .filter_bar .filter_curr{color:#30a8ff;}
 .filter_on .ico-filter:before{content:"";position:absolute;top:0;right:-10px;display:block;width:8px;height:8px;border-radius:50%;background-color:#ff9913;}
