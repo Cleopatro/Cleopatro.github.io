@@ -278,9 +278,11 @@
 <script type="text/javascript">
 	window.onload=function(){
 		var filterProd=document.getElementsByClassName("filter-prod")[0],
-			filterBox=document.getElementsByClassName("filter_box")[0];
+			filterBox=document.getElementsByClassName("filter_box")[0],
+			mask=document.getElementsByClassName("cui-mask")[0];
 		filterProd.addEventListener("click", function(){
 			filterBox.style.display="block";
+			mask.style.display="block";
 		});
 	}
 </script>
