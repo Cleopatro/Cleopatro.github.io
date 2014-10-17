@@ -48,8 +48,8 @@ section h3{font-size:15px;}
 .ico-blue-full, .ico-box-triangle,
 .ico-checkbox, .ico-checkbox-bg{background-image:url(../img/ico-jh.png?141017);background-repeat:no-repeat;background-size:46px 190px;}
 .ico-like{display:inline-block;width:16px;height:13px;}
-.ico-like-empty{background-position:1px 0;}
-.ico-like-full{background-position:-15px 0;}
+.ico-like-empty{background-position:0 0;}
+.ico-like-full{background-position:-17px 0;}
 .ico-filter{display:inline-block;width:19px;height:19px;}
 .ico-filter-price{background-position:0 -30px;}
 .ico-filter-dest{background-position:0 -49px;}
